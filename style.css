@@ -1,0 +1,114 @@
+:root{
+    /* Primary colors */
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* Neutral colors */
+    --para-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --bg-h-buttons-vlight-gray: hsl(0, 0%, 95%);
+
+    /* Font size and weight */
+    --lightweight-lexDec: 400;
+    --chonky-bigShoulders: 700;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100dvw;
+    height: 100dvh;
+}
+
+body {
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-h-buttons-vlight-gray);
+}
+
+main {
+    width: 90dvw;
+    height: 75dvh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.75rem;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    padding: 2.5rem 2rem;
+}
+
+section h1 {
+    color: var(--bg-h-buttons-vlight-gray);
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: var(--chonky-bigShoulders);
+    font-style: normal;
+    margin: 1rem 0rem;
+}
+
+section p {
+    color: var(--para-transparent-white);
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: var(--lightweight-lexDec);
+    font-style: normal;
+    margin: 1rem 0rem;
+}
+
+button {
+    margin: 1rem 0rem;
+    border-radius: 2rem;
+    padding: 0.625rem 1.25rem;
+    border: none;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: var(--lightweight-lexDec);
+    font-style: normal;
+    font-size: 12px;
+}
+
+#sedan-section {
+    background-color: var(--bright-orange);
+    border-radius: 0.75rem 0.75rem 0rem 0rem;
+}
+
+#sedan-section button {
+    color: var(--bright-orange);
+}
+
+#suv-section {
+    background-color: var(--dark-cyan);
+}
+
+#suv-section button {
+    color: var(--dark-cyan);
+}
+
+#luxury-section {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0rem 0rem 0.75rem 0.75rem;
+}
+
+#luxury-section button {
+    color: var(--very-dark-cyan);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

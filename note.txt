@@ -1,0 +1,27 @@
+Mobile design:
+    - 3 Sections: Sedans, SUVs, Luxury 
+    - 1-column, 3 row design 
+    - Each section:
+        - image
+        - h1
+        - p 
+        - learn more button 
+
+
+Desktop design:
+    - same 3 sections as mobile 
+    - 3-column, 1 row design 
+    - Section layout same as mobile. 
+
+active:
+    - on hover for learn more button at bottom of each section
+
+
+
+  
+
+  
+  
+
+  
+  
