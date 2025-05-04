@@ -11,6 +11,7 @@
     /* Font size and weight */
     --lightweight-lexDec: 400;
     --chonky-bigShoulders: 700;
+    --h1-font-size: 1.75rem;
 }
 
 *, *::after, *::before {
@@ -35,7 +36,7 @@ body {
 
 main {
     width: 90dvw;
-    height: 75dvh;
+    height: min-content;
     display: flex;
     flex-direction: column;
     border-radius: 0.75rem;
@@ -54,6 +55,9 @@ section h1 {
     font-weight: var(--chonky-bigShoulders);
     font-style: normal;
     margin: 1rem 0rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: var(--h1-font-size);
 }
 
 section p {
